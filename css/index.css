@@ -1,0 +1,16 @@
+@import url("https://unpkg.com/modern-css-reset/dist/reset.min.css");
+@import "./container.css" screen;
+@import "./fonts.css" screen;
+@import "./header.css" screen;
+@import "./aside.css" screen;
+@import "./main.css" screen;
+@import "./footer.css" screen;
+
+.content {
+  display: flex;
+}
+@media (max-width: 840px) {
+  .content {
+    flex-direction: column-reverse;
+  }
+}

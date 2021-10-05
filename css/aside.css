@@ -1,0 +1,166 @@
+aside {
+  background-color: #ececee40;
+  max-width: 340px;
+  padding: 24px 24px 24px 32px;
+}
+
+aside h2 {
+  display: table;
+  color: #56A2B9;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.3em;
+  background: linear-gradient(45deg, #56A2B9 0%, #5CC3CF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+.proskills{
+  margin-bottom: 24px;
+}
+
+.loadbar__background {
+  display: flex;
+  align-items: center;
+  background-color: #D6D6D6;
+  width: 100%;
+  height: 6px;
+  border-radius: 3px;
+  margin-left: -22.5px;
+}
+
+.loadbar__loader {
+  background: linear-gradient(90deg, #56A2B9 1.89%, #5CC3CF 100%);
+  margin-left: -12px;
+  height: 6px;
+  border-radius: 3px;
+}
+
+.loadbar__round {
+  width: 12px;
+  height: 12px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #56A2B9;
+}
+
+.skills__list__first {
+  width: 80%;
+}
+
+.skills__list__second {
+  width: 80%;
+}
+
+.skills__list__thirdth {
+  width: 60%;
+}
+
+.skills__list__fourth {
+  width: 20%;
+}
+
+.skills__list__fifth {
+  width: 80%;
+}
+
+.skills__list__six {
+  width: 50%;
+}
+
+.skills__list__item {
+  border-left: 1px dotted #56A2B9;
+  padding: 16px;
+}
+
+.skills__list__item:first-child {
+  padding-top: 0;
+}
+
+.skills__list__item:last-child {
+  padding-bottom: 0;
+}
+
+.skills__item__text {
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.pskills__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pskills__item {
+  margin: 0px 48px 12px 0;
+}
+
+.stars__block span {
+  content: url("../img/star_gray.svg");
+  width: 14px;
+}
+
+.stars__block .active {
+  content: url("../img/star_blue.svg");
+}
+
+.followme__list__item {
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+}
+
+
+.followme__link {
+  display: flex;
+  align-items: center;
+}
+
+.followme__link:link {
+
+  color:#56A2B9;
+  text-decoration: none;
+}
+
+.followme__link:visited {
+  color:rgb(121, 121, 121);
+  text-decoration: underline;
+}
+
+.followme__link:hover {
+  text-decoration: underline;
+}
+
+.followme__icon {
+  background-image: linear-gradient(90deg, #56A2B9 1.89%, #5CC3CF 100%);
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 24px;
+}
+
+.followme__icon__image {
+  margin:0;
+  width: 20px;
+  height: 20px;
+}
+
+.english p{
+  margin: 8px 0 16px 0;
+  color: #666666;
+}
+
+
+@media (max-width: 840px) {
+  aside {
+    max-width: 100%;
+  }
+}
