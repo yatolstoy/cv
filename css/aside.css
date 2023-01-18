@@ -2,6 +2,7 @@ aside {
   background-color: #ececee40;
   max-width: 340px;
   padding: 24px 24px 24px 32px;
+  flex-shrink: 0;
 }
 
 aside h2 {
@@ -18,10 +19,6 @@ aside h2 {
 aside ul {
   list-style: none;
   padding: 0;
-}
-
-.proskills{
-  margin-bottom: 24px;
 }
 
 .loadbar__background {
@@ -50,63 +47,61 @@ aside ul {
   background-color: #56A2B9;
 }
 
-.skills__list__first {
-  width: 80%;
+.programming-language__list {
+  display: flex;
+  gap: 1rem;
 }
 
-.skills__list__second {
-  width: 80%;
+.programming-language__item {
+  text-align: center;
 }
 
-.skills__list__thirdth {
-  width: 60%;
+.programming-language__item img {
+  display: block;
+  margin: 0 auto;
 }
 
-.skills__list__fourth {
-  width: 20%;
-}
-
-.skills__list__fifth {
-  width: 80%;
-}
-
-.skills__list__six {
-  width: 50%;
-}
-
-.skills__list__item {
-  border-left: 1px dotted #56A2B9;
-  padding: 16px;
-}
-
-.skills__list__item:first-child {
-  padding-top: 0;
-}
-
-.skills__list__item:last-child {
-  padding-bottom: 0;
-}
-
-.skills__item__text {
-  text-transform: uppercase;
-  margin-bottom: 12px;
-}
-
-.pskills__list {
+.framework__list {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
 }
-.pskills__item {
-  margin: 0px 48px 12px 0;
+
+.framework__item {
+  text-align: center;
+}
+
+.framework__item img {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+}
+
+.tools__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.tools__item {
+  text-align: center;
+}
+
+.tools__item img {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
 }
 
 .stars__block span {
-  content: url("../img/star_gray.svg");
+  content: url("../img/icons/star_gray.svg");
   width: 14px;
 }
 
 .stars__block .active {
-  content: url("../img/star_blue.svg");
+  content: url("../img/icons/star_blue.svg");
 }
 
 .followme__list__item {
